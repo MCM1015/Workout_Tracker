@@ -39,6 +39,6 @@ const workoutSchema = new Schema({
   ]
 });
 
-const Tracker = mongoose.model("Tracker", workoutSchema);
+const Workout = mongoose.model("Workout", workoutSchema);
 
-module.exports = Tracker;
+module.exports = Workout;
