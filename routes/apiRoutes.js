@@ -1,6 +1,8 @@
 const router = require("express").Router();
 const Workout = require("../models/Workout.js");
 
+//total duration?
+
 router.get("/api/workouts", (req, res) => {
     Workout.find()
         .then(dbWorkout => {
